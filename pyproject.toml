@@ -1,0 +1,26 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulation"
+version = "0.0.1"
+description = "VISSIM Example project"
+authors = [{ name = "VISSIM" }]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+]
+
+[tool.setuptools]
+packages = ["app", "ptv_comm", "ptv_veh", "customers", "serveApp", "serviceDesk"]
+
+[tool.setuptools.package-dir]
+app = "app"
+ptv_comm = "ptv_comm"
+ptv_veh = "ptv_veh"
+customers = "src/customers"
+serveApp = "src/serveApp"
+serviceDesk = "src/serviceDesk"
+
