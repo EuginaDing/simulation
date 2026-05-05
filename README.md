@@ -1,3 +1,5 @@
+# copy from https://github.com/garrettdowd/py_ptv as example, all rights to the author, thanks!
+
 # py_ptv
 A collection of useful Vissim command wrappers and functions for autonomous and connected traffic
 
